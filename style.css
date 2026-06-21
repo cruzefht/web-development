@@ -1,14 +1,15 @@
 .card {
   background-color: white;
-  display: flex;
-  flex-direction:row;
+  display: flexbox; 
+  flex-direction:column-reverse;
   align-items: center;
   gap: 10px;
   border-radius:100px;
 }
 
 body {background-color:white;
-}
+      background-position:center;
+    }
 
 .the-one img {
   border-radius: 38px;
