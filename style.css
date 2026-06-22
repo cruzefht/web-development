@@ -7,6 +7,7 @@
   border-radius:100px;
   max-width:300px;
   padding:100px;
+  justify-content:center;
 
 }
 form{background-color:grey;
@@ -18,7 +19,7 @@ form{background-color:grey;
       padding:20px;
     }
 
-body {background-image:url("");
+body {background-image:url("vibe coding.avif");
       background-position:center;
       background-size:cover;
       background-position:center;
@@ -32,14 +33,25 @@ body {background-image:url("");
          align-items:center;
          margin:0 auto;
          padding:10px;
+         gap:16px;
 }    
 
 .the-one img{
               height: 500px;
-              display:block;
+              display:flex;
               margin:0 auto;
+              padding:16px;
               flex:1;
-              object-fit:cover;
+              width:100%;
+}
+
+.row img{gap:16px;
+         display:flex;
+         height:200px;
+         flex:1;
+         padding:16px;
+         width:100%;
+
 }
 
 h1 {
@@ -59,11 +71,11 @@ p {
   font-style: oblique;
   font-size: 30px;
   color:black;
-
+  width:1200px;
 }
 h3{font-family:Arial, Helvetica, sans-serif;
   font-size: 40px;
-  color:gold;
+  color:black;
 
 }
 
@@ -85,8 +97,16 @@ nav a{color:black;
   font-size:25px;
   text-decoration:none;
   }
-  .walker{width:auto;
+  .walker{width:1200px;
           align-items:center;
           margin:auto;
           padding:20px;
           }
+.makers-walk {width:1200px;
+          padding:16px;
+
+}   
+.makers-walk img{gap:16px;
+           border:10px;
+
+}       
